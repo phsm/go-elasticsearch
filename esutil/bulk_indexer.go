@@ -17,8 +17,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/elastic/go-elasticsearch/v6"
-	"github.com/elastic/go-elasticsearch/v6/esapi"
+	"github.com/phsm/go-elasticsearch/v6"
+	"github.com/phsm/go-elasticsearch/v6/esapi"
 )
 
 // BulkIndexer represents a parallel, asynchronous, efficient indexer for Elasticsearch.

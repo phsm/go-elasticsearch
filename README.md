@@ -2,7 +2,7 @@
 
 The official Go client for [Elasticsearch](https://www.elastic.co/products/elasticsearch).
 
-[![GoDoc](https://godoc.org/github.com/elastic/go-elasticsearch?status.svg)](https://pkg.go.dev/github.com/elastic/go-elasticsearch/v6)
+[![GoDoc](https://godoc.org/github.com/elastic/go-elasticsearch?status.svg)](https://pkg.go.dev/github.com/phsm/go-elasticsearch/v6)
 [![Go Report Card](https://goreportcard.com/badge/github.com/elastic/go-elasticsearch)](https://goreportcard.com/report/github.com/elastic/go-elasticsearch)
 [![codecov.io](https://codecov.io/github/elastic/go-elasticsearch/coverage.svg?branch=master)](https://codecov.io/gh/elastic/go-elasticsearch?branch=master)
 [![Build](https://github.com/elastic/go-elasticsearch/workflows/Build/badge.svg)](https://github.com/elastic/go-elasticsearch/actions?query=branch%3A6.x)
@@ -22,12 +22,12 @@ When using Go modules, include the version in the import path, and specify eithe
 It's possible to use multiple versions of the client in a single project:
 
     // go.mod
-    github.com/elastic/go-elasticsearch/v6 6.x
+    github.com/phsm/go-elasticsearch/v6 6.x
     github.com/elastic/go-elasticsearch/v7 7.x
 
     // main.go
     import (
-      elasticsearch6 "github.com/elastic/go-elasticsearch/v6"
+      elasticsearch6 "github.com/phsm/go-elasticsearch/v6"
       elasticsearch7 "github.com/elastic/go-elasticsearch/v7"
     )
     // ...
@@ -42,7 +42,7 @@ The `master` branch of the client is compatible with the current `master` branch
 
 Add the package to your `go.mod` file:
 
-    require github.com/elastic/go-elasticsearch/v6 6.x
+    require github.com/phsm/go-elasticsearch/v6 6.x
 
 Or, clone the repository:
 
@@ -56,7 +56,7 @@ mkdir my-elasticsearch-app && cd my-elasticsearch-app
 cat > go.mod <<-END
   module my-elasticsearch-app
 
-  require github.com/elastic/go-elasticsearch/v6 6.x
+  require github.com/phsm/go-elasticsearch/v6 6.x
 END
 
 cat > main.go <<-END
@@ -65,7 +65,7 @@ cat > main.go <<-END
   import (
     "log"
 
-    "github.com/elastic/go-elasticsearch/v6"
+    "github.com/phsm/go-elasticsearch/v6"
   )
 
   func main() {
@@ -184,8 +184,8 @@ import (
   "strings"
   "sync"
 
-  "github.com/elastic/go-elasticsearch/v6"
-  "github.com/elastic/go-elasticsearch/v6/esapi"
+  "github.com/phsm/go-elasticsearch/v6"
+  "github.com/phsm/go-elasticsearch/v6/esapi"
 )
 
 func main() {

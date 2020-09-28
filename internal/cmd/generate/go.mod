@@ -1,11 +1,11 @@
-module github.com/elastic/go-elasticsearch/v6/internal/cmd/generate
+module github.com/phsm/go-elasticsearch/v6/internal/cmd/generate
 
 go 1.11
 
-replace github.com/elastic/go-elasticsearch/v6 => ../../../
+replace github.com/phsm/go-elasticsearch/v6 => ../../../
 
 require (
-	github.com/elastic/go-elasticsearch/v6 6.x
+	github.com/phsm/go-elasticsearch/v6 6.x
 
 	github.com/alecthomas/chroma v0.6.3
 	github.com/inconshreveable/mousetrap v1.0.0 // indirect

@@ -16,8 +16,8 @@ import (
 	"github.com/mailru/easyjson"
 	"github.com/tidwall/gjson"
 
-	"github.com/elastic/go-elasticsearch/v6/_examples/encoding/model"
-	"github.com/elastic/go-elasticsearch/v6/esutil"
+	"github.com/phsm/go-elasticsearch/v6/_examples/encoding/model"
+	"github.com/phsm/go-elasticsearch/v6/esutil"
 )
 
 func BenchmarkEncode(b *testing.B) {

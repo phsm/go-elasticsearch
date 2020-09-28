@@ -1,9 +1,9 @@
-module github.com/elastic/go-elasticsearch/v6/_examples/security
+module github.com/phsm/go-elasticsearch/v6/_examples/security
 
 go 1.11
 
-replace github.com/elastic/go-elasticsearch/v6 => ../..
+replace github.com/phsm/go-elasticsearch/v6 => ../..
 
 require (
-	github.com/elastic/go-elasticsearch/v6 6.x
+	github.com/phsm/go-elasticsearch/v6 6.x
 )

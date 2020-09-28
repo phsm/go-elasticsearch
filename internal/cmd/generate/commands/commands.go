@@ -9,7 +9,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/elastic/go-elasticsearch/v6/internal/cmd/generate/utils"
+	"github.com/phsm/go-elasticsearch/v6/internal/cmd/generate/utils"
 )
 
 var rootCmd = &cobra.Command{

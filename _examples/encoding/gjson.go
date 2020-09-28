@@ -11,7 +11,7 @@ import (
 	"log"
 	"strings"
 
-	"github.com/elastic/go-elasticsearch/v6"
+	"github.com/phsm/go-elasticsearch/v6"
 	"github.com/fatih/color"
 	"github.com/tidwall/gjson"
 )

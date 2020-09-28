@@ -24,8 +24,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/elastic/go-elasticsearch/v6"
-	"github.com/elastic/go-elasticsearch/v6/estransport"
+	"github.com/phsm/go-elasticsearch/v6"
+	"github.com/phsm/go-elasticsearch/v6/estransport"
 )
 
 var defaultRoundTripFunc = func(*http.Request) (*http.Response, error) {

@@ -14,9 +14,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/elastic/go-elasticsearch/v6/esapi"
-	"github.com/elastic/go-elasticsearch/v6/estransport"
-	"github.com/elastic/go-elasticsearch/v6/internal/version"
+	"github.com/phsm/go-elasticsearch/v6/esapi"
+	"github.com/phsm/go-elasticsearch/v6/estransport"
+	"github.com/phsm/go-elasticsearch/v6/internal/version"
 )
 
 const (
